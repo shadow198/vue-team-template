@@ -1,7 +1,7 @@
 #vue team template 
 ###作者：月下独奏
 
-这里这是提供一种构建vue项目的选择方案，如果喜欢欢迎Star
+这里只是提供一种构建vue项目的选择方案，如果喜欢欢迎Star
 
 这里整合gulp的主要好处就是可以让webpack专注与vue file的模块打包，而不再考虑图片、css等非js文件
 
