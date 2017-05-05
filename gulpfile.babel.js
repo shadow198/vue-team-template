@@ -40,7 +40,7 @@ gulp.task('dev:stylus', function () {
 });
 gulp.task('dev:element-ui-css', function() {
     return gulp.src(toolsWebsite+'src/styles/elementUI/src/**/*.css')
-        .pipe(changed(toolsWebsite+'src/styles/elementUI/dist/'))
+        /*.pipe(changed(toolsWebsite+'src/styles/elementUI/dist/'))*/
         .pipe(postcss([salad]))
         .pipe(gulp.dest(toolsWebsite+'src/styles/elementUI/dist/'))
         .pipe(browserSync.reload({stream: true}));
