@@ -46,4 +46,7 @@ dir:
 - 拷贝element-ui样式文件：`gulp plugin:element-ui`
 - 启动服务：`gulp dev:serve`
 - 编译打包：`gulp build`
-- 本地启动服务查看打包项目：`gulp build:serve`
+- 本地启动服务查看打包项目：`gulp build:serve`  
+
+------------------------------------
+##### 关于element-ui样式在`src/styles/elementUI/src/`文件夹中修改（dist中的css为编译后样式）  
