@@ -76,7 +76,12 @@ gulp.task("dev:serve",gulp.series('dev:stylus',"dev:index",'dev:element-ui-css',
     }
 ));
 
-gulp.task("build",gulp.parallel("dev:stylus",
+gulp.task('build:styles', function() {
+    return gulp.src(toolsWebsite+'dist/styles/**/*.css')
+        .pipe(cssmin())
+        .pipe(gulp.dest(toolsWebsite+'dist/styles/'));
+});
+gulp.task("build",gulp.parallel("dev:stylus",'dev:element-ui-css',
     (done)=>{
         env.set({
             NODE_ENV: 'production'
@@ -84,7 +89,7 @@ gulp.task("build",gulp.parallel("dev:stylus",
         toolsBuild();
         done();
     }
-));
+),'build:styles');
 gulp.task("build:serve",()=>{
     browserSync({
         server: {
