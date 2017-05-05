@@ -1,4 +1,9 @@
 {
   "presets": ["es2015","stage-2"],
-  "plugins": ["transform-export-extensions"]
+  "plugins": ["transform-export-extensions",["component", [
+    {
+      "libraryName": "element-ui",
+      "styleLibraryName": "~src/styles/elementUI/dist"
+    }
+  ]]]
 }

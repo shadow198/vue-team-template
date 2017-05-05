@@ -1,8 +1,8 @@
 <template>
   <div class="demo content has-text-centered">
     <p>{{countDone}}</p>
-    <p><button @click='add'>点我Mutations</button></p>
-    <p><button class="brn" @click='addAction'>点我Actions</button></p>
+    <p><el-button @click='add'>点我Mutations</el-button></p>
+    <p><el-button class="brn" @click='addAction'>点我Actions</el-button></p>
     <p><router-link :to="{ name: 'home', params: { id: 123 }}">home to 123</router-link></p>
     <p><router-link :to="{ name: 'index'}">Index</router-link></p>
     <p></p>

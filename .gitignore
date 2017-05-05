@@ -1,4 +1,5 @@
 .idea/
 .DS_Store
 node_modules/
+src/styles/elementUI/dist/
 npm-debug.log

@@ -4,6 +4,9 @@ import { sync } from 'vuex-router-sync'
 import store from './store'
 import App from './App.vue'
 
+import { Button } from 'element-ui'
+Vue.component(Button.name, Button);
+
 // Enable devtools
 Vue.config.devtools = true;
 sync(store,router);

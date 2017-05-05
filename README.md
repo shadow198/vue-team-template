@@ -7,6 +7,7 @@
 
 脚手架整合：babel+gulp+webpack+browserSync  
 前端整合：vue+vue-router+vuex+vuex-router-sync+axios+jquery+boostrap  
+前端整合新增：element-ui组件按需加载  
 
 ---------------------
 dir:  
@@ -42,6 +43,7 @@ dir:
 ------------------------------
 ##### 项目命令
 - 安装依赖：`npm install`
+- 拷贝element-ui样式文件：`gulp plugin:element-ui`
 - 启动服务：`gulp dev:serve`
 - 编译打包：`gulp build`
 - 本地启动服务查看打包项目：`gulp build:serve`

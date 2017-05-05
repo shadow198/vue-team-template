@@ -6,7 +6,9 @@
             <p>前端整合：vue+vue-router+vuex+vuex-router-sync+axios+jquery+boostrap</p>
             <p class="author">--月下独奏</p>
         </div>
-        <router-link :to="{ name: 'home', params: { id: 1 }}">demo</router-link>
+
+        <el-button><router-link :to="{ name: 'home', params: { id: 1 }}">demo(此按钮组件来自element-ui，并且组件为按需加载)</router-link></el-button>
+
     </div>
 </template>
 
