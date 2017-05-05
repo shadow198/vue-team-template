@@ -1,5 +1,6 @@
 # vue team template  
 ### 作者：月下独奏  
+[在线查看demo：https://woleicom.github.io/vue-team-template/dist](https://woleicom.github.io/vue-team-template/dist)    
 
 这里只是提供一种构建vue项目的选择方案，如果喜欢欢迎Star  
 
